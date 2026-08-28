@@ -1,0 +1,64 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 200px;
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          box-sizing: border-box;
+          color: #c9d1d9;
+          text-align: center;
+          padding: 24px;
+        }
+
+        .tag {
+          font-size: 13px;
+          color: #7ee787;
+          margin-bottom: 8px;
+          letter-spacing: 0.05em;
+        }
+
+        .title {
+          font-size: 28px;
+          font-weight: 700;
+          color: #f0f6fc;
+          margin: 0;
+          letter-spacing: -0.02em;
+        }
+
+        .cursor {
+          display: inline-block;
+          width: 8px;
+          height: 24px;
+          background: #58a6ff;
+          margin-left: 6px;
+          vertical-align: middle;
+          animation: blink 1s infinite;
+        }
+
+        .subtitle {
+          font-size: 14px;
+          color: #8b949e;
+          margin-top: 12px;
+        }
+
+        @keyframes blink {
+          0%, 49% { opacity: 1; }
+          50%, 100% { opacity: 0; }
+        }
+      </style>
+      <div class="container">
+        <div class="tag">&gt; engineering &amp; systems</div>
+        <div class="title">rhsa-fr<span class="cursor"></span></div>
+        <div class="subtitle">Building scalable backends, robust APIs &amp; clean web tools</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
