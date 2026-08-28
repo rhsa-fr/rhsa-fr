@@ -1,0 +1,34 @@
+<svg fill="none" viewBox="0 0 800 180" width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .box {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          height: 180px;
+          background: #090a0f;
+          border: 1px solid #1f2430;
+          border-radius: 8px;
+          padding: 24px 32px;
+          box-sizing: border-box;
+          color: #e2e8f0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #1e293b; padding-bottom: 12px; }
+        .name { font-size: 22px; font-weight: 800; letter-spacing: 0.12em; color: #ffffff; text-transform: uppercase; }
+        .sub { font-size: 11px; font-family: ui-monospace, monospace; color: #10b981; letter-spacing: 0.08em; }
+        .desc { font-size: 15px; color: #94a3b8; margin-top: 8px; }
+        .stack { font-size: 12px; font-family: ui-monospace, monospace; color: #64748b; }
+      </style>
+      <div class="box">
+        <div class="top">
+          <div class="name">rhsa-fr</div>
+          <div class="sub">[ SYSTEM ARCHITECTURE ]</div>
+        </div>
+        <div class="desc">Engineering resilient server-side systems and developer tools.</div>
+        <div class="stack">TS / Go / Postgres / Docker / Microservices</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

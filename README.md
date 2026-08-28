@@ -1,19 +1,32 @@
 <p align="center">
-  <img src="./banner.svg" alt="rhsa-fr banner" width="100%" />
+  <img src="./banner-terminal.svg" alt="rhsa-fr terminal banner" width="100%" />
 </p>
 
-### About
+### About Me
 
-Software engineer focused on reliable backend architectures, API design, and performant web applications.
+Software engineer focused on high-performance backend architecture, clean APIs, and distributed systems.
 
 ```text
-Stack        : TypeScript, Node.js, Go, PostgreSQL, React
-Focus        : Distributed Systems, API Architecture, Developer Tools
-Current Work : Building resilient services & automations
+Languages    : TypeScript, Go, SQL, Python
+Backend      : Node.js, Express, Fastify, Gin
+Data & Store : PostgreSQL, Drizzle ORM, Redis
+DevOps/Infra : Docker, Linux, CI/CD, Git Workflows
 ```
 
 ---
 
+<details>
+  <summary><b>🎨 Alternate Banners Preview</b></summary>
+  <br/>
+  <p><b>Option 2: Editorial Dark</b></p>
+  <img src="./banner-editorial.svg" width="100%" />
+  <br/><br/>
+  <p><b>Option 3: Matrix Pulse</b></p>
+  <img src="./banner-pulse.svg" width="100%" />
+</details>
+
+---
+
 <p align="center">
-  <sub>Configured with clean minimalism. No bloat.</sub>
+  <sub>Minimal &amp; Fast. Built with precision.</sub>
 </p>

@@ -1,0 +1,42 @@
+<svg fill="none" viewBox="0 0 800 220" width="800" height="220" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .box {
+          font-family: ui-monospace, monospace;
+          height: 220px;
+          background: #090d14;
+          border: 1px solid #1e293b;
+          border-radius: 10px;
+          padding: 20px 28px;
+          box-sizing: border-box;
+          color: #94a3b8;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .header { display: flex; justify-content: space-between; align-items: center; }
+        .dots { display: flex; gap: 6px; }
+        .dot { width: 10px; height: 10px; border-radius: 50%; background: #334155; }
+        .badge { font-size: 11px; color: #10b981; border: 1px solid #064e3b; padding: 2px 8px; border-radius: 4px; background: #022c22; }
+        .main { font-size: 26px; font-weight: 700; color: #f8fafc; }
+        .cursor { display: inline-block; width: 10px; height: 22px; background: #38bdf8; animation: blink 1s infinite; vertical-align: middle; margin-left: 6px; }
+        .tags { display: flex; gap: 10px; font-size: 12px; }
+        .tag-item { background: #1e293b; color: #cbd5e1; padding: 4px 10px; border-radius: 4px; }
+        @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      </style>
+      <div class="box">
+        <div class="header">
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <div class="badge">● SYSTEM ACTIVE</div>
+        </div>
+        <div class="main">&gt; rhsa-fr<span class="cursor"></span></div>
+        <div class="tags">
+          <span class="tag-item">Backend Systems</span>
+          <span class="tag-item">Cloud &amp; APIs</span>
+          <span class="tag-item">TypeScript / Go</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
