@@ -1,39 +1,70 @@
-<svg fill="none" viewBox="0 0 800 150" width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 160" width="800" height="160" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .box {
-          font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
-          height: 150px;
-          background: #090d14;
-          border: 1px solid #1e293b;
+        .window {
+          font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "JetBrains Mono", ui-monospace, Menlo, monospace;
+          height: 160px;
+          background: #1a1b26;
+          border: 1px solid #2f3549;
           border-radius: 10px;
-          padding: 24px;
           box-sizing: border-box;
+          overflow: hidden;
           display: flex;
           flex-direction: column;
-          justify-content: space-between;
         }
-        .header { display: flex; align-items: center; }
-        .dots { display: flex; gap: 6px; }
-        .dot { width: 10px; height: 10px; border-radius: 50%; background: #334155; }
-        .main-wrap {
+        .titlebar {
+          height: 36px;
+          background: #1f2335;
+          border-bottom: 1px solid #16161e;
           display: flex;
           align-items: center;
+          padding: 0 14px;
+          position: relative;
+        }
+        .controls {
+          display: flex;
+          gap: 7px;
+        }
+        .btn {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          box-sizing: border-box;
+        }
+        .close { background: #ff5f56; border: 1px solid #e0443e; }
+        .minimize { background: #ffbd2e; border: 1px solid #dea123; }
+        .maximize { background: #27c93f; border: 1px solid #1aab29; }
+        .title {
+          position: absolute;
+          left: 0;
+          right: 0;
+          text-align: center;
+          font-size: 12px;
+          color: #7aa2f7;
+          font-weight: 500;
+          letter-spacing: 0.02em;
+        }
+        .terminal-body {
+          flex: 1;
+          padding: 0 24px;
+          display: flex;
+          align-items: center;
+          font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
         }
         .prompt {
-          font-size: 26px;
-          font-weight: 700;
-          color: #38bdf8;
-          margin-right: 10px;
+          font-size: 24px;
+          font-weight: 600;
+          color: #73daca;
+          margin-right: 12px;
         }
         .typing {
-          font-size: 26px;
-          font-weight: 700;
-          color: #f8fafc;
+          font-size: 24px;
+          font-weight: 600;
+          color: #c0caf5;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 3px solid #38bdf8;
+          border-right: 3px solid #7aa2f7;
           width: 17ch;
           animation: typing 3.5s steps(17) infinite alternate, blink 0.75s infinite;
         }
@@ -45,12 +76,17 @@
           50% { border-color: transparent; }
         }
       </style>
-      <div class="box">
-        <div class="header">
-          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+      <div class="window">
+        <div class="titlebar">
+          <div class="controls">
+            <div class="btn close"></div>
+            <div class="btn minimize"></div>
+            <div class="btn maximize"></div>
+          </div>
+          <div class="title">rahesa — zsh</div>
         </div>
-        <div class="main-wrap">
-          <span class="prompt">&gt;</span>
+        <div class="terminal-body">
+          <span class="prompt">~ &gt;</span>
           <span class="typing">Rahesa Aferdinan</span>
         </div>
       </div>
