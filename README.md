@@ -1,5 +1,6 @@
-<h1 align="center">Hey <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" height="30px" width="30px"> I'm Rahesa Aferdinan</h1>
 <img src="banner.svg" alt="Banner" width="100%" />
+
+<img src="file_00000000f83081fabb2cbca0ed32c855.png" alt="My Photo" width="100%" />
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
@@ -11,7 +12,6 @@
 <p align="center">
   <img src="https://trophy.ryglcloud.net/?username=rhsa-fr&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Rahesa Aferdinan's GitHub Trophies" />
 </p>
-
 
 ## 🛠️ Languages & Tools
 <p align="center">
@@ -25,6 +25,4 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
 </picture>
-
-<img src="file_00000000f83081fabb2cbca0ed32c855.png" alt="My Photo" width="100%" />
 <!-- Auto-update: 2026-08-30 22:02:16 -->
