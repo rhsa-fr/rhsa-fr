@@ -1,13 +1,11 @@
 <h1 align="center">Hey <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" height="30px" width="30px"> I'm Rahesa Aferdinan</h1>
-<h3 align="center">Software Engineering Student</h3>
-
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=rhsa-fr">
     <img src="https://komarev.com/ghpvc/?username=rhsa-fr&label=Profile%20views&color=00FFFF&style=flat-square" alt="rhsa-fr's profile views" />
   </a>
 </p>
 
-<img src="none" alt="Banner" width="100%" />
+<img src="banner.svg" alt="Banner" width="100%" />
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
