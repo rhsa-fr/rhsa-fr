@@ -26,5 +26,5 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
 </picture>
 
-<img src="photo.jpg" alt="My Photo" width="100%" />
+<img src="file_00000000f83081fabb2cbca0ed32c855.png" alt="My Photo" width="100%" />
 <!-- Auto-update: 2026-08-30 22:02:16 -->
