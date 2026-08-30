@@ -25,4 +25,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
 </picture>
+
+<img src="photo.jpg" alt="My Photo" width="100%" />
 <!-- Auto-update: 2026-08-30 22:02:16 -->
